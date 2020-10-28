@@ -1,0 +1,523 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*<!----------------------list-down-menu--------------------------------------->*/
+
+#li2:hover{
+	background-color: #3e8e41;
+transition-duration:  0.19s;
+	transition-timing-function: ease-in;
+	}
+	
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 125px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display:block;}
+
+
+.dropdown:hover .dropbtn 
+{
+background-color: #3e8e41;
+transition-duration:  0.19s;
+	transition-timing-function: ease-in;
+	}
+	
+	
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width:100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display:block;}
+
+
+.dropdown:hover .dropbtn 
+{
+background-color: #3e8e41;
+transition-duration:  0.19s;
+	transition-timing-function: ease-in;
+	}
+
+  li{
+
+    margin-right: 20px;
+  }
+	
+	/*<!-----------------------------------background-image-------------------------->*/
+	
+	.bgimg
+	{
+     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('14.jpeg');
+	  background-size:100% 100%;
+	  background-attachment:fixed;
+	  width:100%;
+	  height:620px;
+	 
+	 
+	}
+  .varun
+  {
+  opacity:0.8;
+  }
+  .heading{
+  margin-top:140px;
+  box-sizing:border-box;
+  font-family: 'Fondamento', cursive;
+ 
+  }
+  .heading h1{
+  font-size:85px;
+  
+  }
+  .heading h2
+  {
+  
+ color:#D3D3D3;
+  font-size:20px;
+  }
+  .dot{
+  color:#D3D3D3;
+  padding-left:5px;
+ padding-right:5px   ;
+  font-size:55px;
+  }
+  .button{
+     margin-left:42%;
+	 margin-top:30px;
+	 font-size:25px;
+	 padding-left:12px;
+	 padding-right:12px;
+  }
+  
+  
+  
+
+
+	/*<!---------------------------------------bottom---------------------------->*/
+  
+  .startups
+  {
+    padding:40px 0px 60px;
+    height:600px;	
+  }
+  .startups h1{
+     font-size:50px; 
+  }
+  .rowsetting
+  {margin:50px 0;
+  
+  }
+  .imagesetting
+  {
+  border-radius:50%;
+  width:100px;
+  height:100px;
+  }
+  .fa-shopping-cart{
+    margin-top:25px;
+  }
+  .fa-heart{
+    margin-top:25px;
+  }
+
+
+
+/*<!---------------------------------footer----------------------------------------->*/
+
+  .site{
+      margin-top:20px;
+     
+  }
+  .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+
+.site-footer h2
+{
+  color:#fff;
+  font-size:18px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.copyright-text
+{
+  margin:0
+}
+
+
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.foootimg
+{margin-top:10px;
+margin-bottom:20px;
+height:110px;
+margin-left: 43%;
+}
+
+/*<!---------------------popup----------------------->*/
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 70px;
+  border-radius: 50% 50%;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+ max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+ 
+  color: white;
+ font-size: 18px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  letter-spacing: 0.06em;
+ 
+}
+
+/*/* Add a red background color to the cancel button */
+./*form-container .cancel {
+  background-color: red;
+}
+*/
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.cross
+{
+   position:absolute;
+   top:0;
+   right:0;
+   border:none;
+   background-color: transparent;
+
+}
+
+/*<!------------------------------------------------------modal----------------------------------------------------->*/
+
+.button1
+{
+	margin-left:35%;
+}
+#ss
+{font-family: 'Libre Baskerville', serif;
+}
+.head1
+{
+font-family: 'Abril Fatface', cursive;
+}
+
+/*<!----------------------------------anchor-tag------------------------>*/
+
+
+#sudarshan
+{
+	text-decoration-line:none;
+
+}
+#site_name
+{
+	text-decoration-line:none;
+}
+
+
+/*<!---------------------Responsive----------------------------->*/
+
+
+@media(min-width: :992px)
+{
+
+.site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+
+  
+}
+
+
+
+
+
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+.heading h1{
+  font-size:75px;
+
+}
+
+.heading h2
+  {
+ color:#D3D3D3;
+  font-size:24px;
+  }
+
+  .heading{
+  margin-top:150px;
+  box-sizing:border-box;
+  font-family: 'Fondamento', cursive;
+ 
+  }
+
+  .button{
+     margin-left:38%;
+   margin-top:15px;
+   font-size:28px;
+   padding-left:12px;
+   padding-right:12px;
+  }
+
+  #hrtag
+  {
+    margin-left: 15%;
+
+  }
+
+  #txtar
+  {
+    width: 80%;
+  }
+
+   .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center;
+  }
+}
+
+@media(min-width:575px) and (max-width:767px)
+{
+.heading h1{
+  font-size:55px;
+  
+  }
+
+.heading h2
+  {
+ color:#D3D3D3;
+  font-size:20px;
+  }
+
+  .startups{
+  height:670px;
+  padding:0px 0px 60px;}
+
+  #hrtag
+  {
+    margin-left: 25%;
+
+  }
+
+  #txtar
+  {
+    width: 80%;
+  }
+
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center;
+  }
+
+   .button{
+     margin-left:38%;
+   margin-top:15px;
+   font-size:19px;
+   padding-left:12px;
+   padding-right:12px;
+  }
+
+
+}
+
+@media(min-width: 480px) and (max-width:574px)
+{
+.heading h1{
+  font-size:45px;
+  
+  }
+  .startups{
+  height:850px;
+  padding:0px 0px 60px;}
+
+ .heading h2
+  {
+ color:#D3D3D3;
+  font-size:17px;
+  }
+
+  .button{
+     margin-left:36%;
+   margin-top:15px;
+   font-size:19px;
+   padding-left:12px;
+   padding-right:12px;
+  }
+  .foootimg
+  {
+    margin-left: 33%;
+  }
+
+}
+
+@media(max-width:479px)
+{
+  .heading{
+  margin-top:120px;
+  box-sizing:border-box;
+  font-family: 'Fondamento', cursive;
+ 
+  }
+  .heading h1{
+  font-size:35px;
+  
+  }
+   .heading h2
+  {
+ color:#D3D3D3;
+  font-size:15px;
+  }
+
+  .button{
+     margin-left:33%;
+   margin-top:15px;
+   font-size:17px;
+   padding-left:12px;
+   padding-right:12px;
+  }
+  .bgimg
+  {
+    
+     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('14.jpeg');
+    background-size:100% 100%;
+    background-attachment:fixed;
+    width:100%;
+    height:500px;
+   
+   
+  }
+
+ .startups{
+  height:900px;
+  padding:0px 0px 60px;
+
+}
+
+.button1
+{
+  margin-left:32%;
+}
+
+.foootimg
+  {
+    margin-left: 28%;
+  }
+
+ 
+
+}
