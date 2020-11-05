@@ -220,12 +220,12 @@ margin-left: 43%;
 /*<!---------------------popup----------------------->*/
 
 .open-button {
-  background-color: #555;
+  background-color:#1794EB;
   color: white;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
   position: fixed;
   bottom: 23px;
   right: 28px;
